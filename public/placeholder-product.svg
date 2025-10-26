@@ -1,0 +1,27 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0c3fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8ec5fc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#grad)"/>
+  
+  <!-- Icon Container -->
+  <circle cx="200" cy="160" r="50" fill="white" opacity="0.3"/>
+  
+  <!-- Shopping Bag Icon -->
+  <g transform="translate(200, 160)">
+    <path d="M -20 -10 L -20 25 L 20 25 L 20 -10 L 15 -10 L 15 -15 Q 15 -25 0 -25 Q -15 -25 -15 -15 L -15 -10 Z" 
+          fill="white" opacity="0.8"/>
+    <path d="M -15 -10 L -15 -15 Q -15 -22 0 -22 Q 15 -22 15 -15 L 15 -10" 
+          stroke="white" stroke-width="2" fill="none" opacity="0.8"/>
+  </g>
+  
+  <text x="50%" y="65%" text-anchor="middle" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="600" opacity="0.9">
+    Indian Craft Product
+  </text>
+  <text x="50%" y="72%" text-anchor="middle" fill="white" font-size="14" font-family="Arial, sans-serif" opacity="0.7">
+    Image not available
+  </text>
+</svg>
